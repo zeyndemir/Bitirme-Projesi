@@ -19,7 +19,7 @@ public class PlayerShooter : MonoBehaviour
     [Header(" Actions ")]
     public static Action onShot;
 
-    // Start'tan önce sadece bir kez kaydederiz.
+   
     private void Awake()
     {
         PlayerMovement.onEnteredWarzone += EnteredWarzoneCallback;        
