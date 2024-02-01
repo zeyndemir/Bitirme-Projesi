@@ -45,7 +45,7 @@ public class CharacterIK : MonoBehaviour
 
     public void DisableIK()
     {
-        // rig builderı disable ettim.
+        
         rigBuilder.enabled = false;
     }
 }
