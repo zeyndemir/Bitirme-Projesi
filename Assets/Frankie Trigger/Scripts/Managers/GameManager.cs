@@ -54,7 +54,7 @@ public class GameManager : MonoBehaviour
 
     public void NextLevel()
     {
-        // Tell the level manager to increase the level index
+        // Level managerla level index ini arttırıyoruz.
         SceneManager.LoadScene(0);
     }
 }
