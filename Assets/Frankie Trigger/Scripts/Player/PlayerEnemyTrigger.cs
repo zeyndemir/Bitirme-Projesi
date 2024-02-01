@@ -70,9 +70,9 @@ public class PlayerEnemyTrigger : MonoBehaviour
                 currentEnemies.Add(currentEnemy);
         }
 
-        // We have a list of current enemies, enemies we've detected
-        // For each current enemy in the list, check if we have a raycast hit for that enemy
-        // If that's not the case, it means that the enemy has exited the line of sight of the player
+        // Mevcut düşmanların bir listesi var, detected ettiğimiz düşmanlar
+        // Listedeki her mevcut düşman için, o düşman için bir raycast isabetimiz olup olmadığını kontrol et
+        // Eğer durum böyle değilse, düşman oyuncunun görüş alanından çıkmış demektir
 
         List<Enemy> enemiesToRemove = new List<Enemy>();
 
