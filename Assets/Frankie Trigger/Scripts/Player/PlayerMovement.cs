@@ -45,7 +45,7 @@ public class PlayerMovement : MonoBehaviour
 
         state = State.Idle;
 
-        // Place the player at the last checkpoint position (if any)
+        // Player'ı checkpoint'e yerleştir.
         transform.position = CheckpointManager.instance.GetCheckpointPosition();
     }
 
