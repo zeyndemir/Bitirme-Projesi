@@ -19,7 +19,7 @@ public class Warzone : MonoBehaviour
     [Header(" Next Warzone ")]
     [SerializeField] private Warzone nextWarzone;
 
-    // Start is called before the first frame update
+    
     void Start()
     {
         ikSplineFollower.followDuration = duration;
