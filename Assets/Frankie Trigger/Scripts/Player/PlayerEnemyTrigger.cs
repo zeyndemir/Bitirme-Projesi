@@ -70,9 +70,7 @@ public class PlayerEnemyTrigger : MonoBehaviour
                 currentEnemies.Add(currentEnemy);
         }
 
-        // Mevcut düşmanların bir listesi var, detected ettiğimiz düşmanlar
-        // Listedeki her mevcut düşman için, o düşman için bir raycast isabetimiz olup olmadığını kontrol et
-        // Eğer durum böyle değilse, düşman oyuncunun görüş alanından çıkmış demektir
+       
 
         List<Enemy> enemiesToRemove = new List<Enemy>();
 
