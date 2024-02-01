@@ -98,7 +98,7 @@ public class PlayerEnemyTrigger : MonoBehaviour
             }
         }
 
-        // Remove processed enemies from the current enemies list
+        // Düşman listesinden kaldırılacak düşmanları sil.
         foreach (Enemy enemy in enemiesToRemove)
             currentEnemies.Remove(enemy);
     }
