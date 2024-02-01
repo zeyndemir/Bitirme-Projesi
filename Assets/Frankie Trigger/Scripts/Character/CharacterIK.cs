@@ -26,7 +26,7 @@ public class CharacterIK : MonoBehaviour
 
     public void ConfigureIK(Transform ikTarget)
     {
-        // Enable the rig builder
+        // rig builder' enable ettim.
         rigBuilder.enabled = true;
 
         foreach(TwoBoneIKConstraint twoBoneIKConstraint in twoBoneIKConstraints)
@@ -45,7 +45,7 @@ public class CharacterIK : MonoBehaviour
 
     public void DisableIK()
     {
-        // Disable the rig builder
+        // rig builderı disable ettim.
         rigBuilder.enabled = false;
     }
 }
